@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Galada&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/c54d9432c0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Zach Gardner | Full Stack Developer </title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-primary">
+    <a class="navbar-brand" href="#home">Zach Gardner</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#recent-projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron my-3 jumbo-background">
+      <div class="container">
+        <h1 class="display-2 text-white font-weight-bold" id="home">Zach Gardner</h1> 
+          <p class="header text-light">Full Stack Developer. On the move.</p>
+      </div>
+    </div>
+  
+    <div class="container">
+      <h2 id="recent-projects" class="text-center my-5 py-5 text-uppercase font-weight-bolder galada">Recent Projects</h2>
+      <!-- Example row of columns -->
+      <div class="row my-2">
+        <div class="col-md-4 ">
+          <a href="http://price-right.herokuapp.com/login" target="_blank"><img src="images/price-right-app.png" class="img-fluid" alt="Price is Right App Screenshot"></a>
+          <h3><a href="http://price-right.herokuapp.com/login" target="_blank">Price Is Right Game</a></h3>
+          <p>Full stack application built with Express, PostgreSQL, Sequelize, PassportJS, and Axios. Deployed on Heroku. Team project built entirely remote.</p>
+          <ul>
+            <li><a class="list btn btn-primary" href="http://price-right.herokuapp.com/login" target="_blank" role="button">View Site &raquo;</a></li>
+            <li><a class="list btn btn-info" href="https://github.com/zgard/price-is-right-app" target="_blank" role="button">View Repo &raquo;</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <a href="https://petmatch.vercel.app/" target="_blank"><img src="images/petmatch-app.png" class="img-fluid" alt="PetMatch Screenshot"></a>
+          <h3><a href="https://petmatch.vercel.app/" target="_blank">PetMatch</a></h3>
+          <p>Front-end application using React and Redux. Deployment on Vercel. Individual project.</p>
+          </br>
+          </br>
+          <ul>
+            <li><a class="list btn btn-primary" href="https://petmatch.vercel.app/" target="_blank" role="button">View Site &raquo;</a></li>
+            <li><a class="list btn btn-info" href="https://github.com/zgard/petmatch" target="_blank" role="button">View Repo &raquo;</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <a href="https://litterbox-895ef.web.app/" target="_blank"><img src="images/litterbox-app.png" class="img-fluid" alt="LitterBox Screenshot"></a>
+          <h3><a href="https://litterbox-895ef.web.app/" target="_blank">LitterBox</a></h3>
+          <p>Front-end application using Bootstrap and Axios. Authentication, database, and deployment through Firebase. Team project built entirely remote.</p>
+          <ul>
+            <li><a class="list btn btn-primary" href="https://litterbox-895ef.web.app/" target="_blank" role="button">View Site &raquo;</a></li>
+            <li><a class="list btn btn-info" href="https://github.com/zgard/LitterBox_Project" target="_blank" role="button">View Repo &raquo;</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <hr>
+  
+    </div> <!-- /container -->
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <h2 id="about" class="text-center my-5 py-5 text-uppercase galada">About Me</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <h3>Bio</h3>
+          <p>I enjoy learning new technologies and using them to improve customer experiences. I started my career in marketing analytics for multiple tech companies. From there I changed directions to lead the customer experience program of an auto company. Now I'm excited to dive in to full stack web development! When I'm not coding I enjoy playing tennis, working on my car, and being social with friends.</p>
+          
+        </div>
+        <div class="col-md-4">
+          <h3>My Skills</h3>
+         <div class="row">
+           <div class="col"><i class="fab fa-js-square display-3"></i></div>
+           <div class="col"><i class="fab fa-react display-3"></i></i></div>
+           <div class="col"><i class="fab fa-node display-3"></i></i></div>
+         </div>
+
+         <div class="row">
+          <div class="col"><i class="fab fa-html5 display-3"></i></div>
+          <div class="col"><i class="fab fa-css3-alt display-3"></i></div>
+          <div class="col"><i class="fab fa-git-square display-3"></i></i></div>
+        </div>
+
+        <!-- <div class="row">
+          <div class="col"><i class="fab fa-git-square display-3"></i></div>
+          <div class="col"><i class="fab fa-react display-3"></i></i></div>
+          <div class="col"><i class="fab fa-node display-3"></i></i></div>
+        </div> -->
+         
+        </div>
+      </div>
+  
+      <hr>
+  
+    </div> <!-- /container -->
+
+  
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <h2 id="contact" class="text-center my-5 text-uppercase galada">Contact</h2>
+      <div class="row">
+        <div class="col-md-8">
+          <p><i class="fab fa-linkedin-in font-weight-bolder"></i>: <a href="https://www.linkedin.com/in/zfgardner/" target="_blank">linkedin.com/zfgardner</a></p>
+          <p><i class="fab fa-github-alt font-weight-bolder"></i>: <a href="https://github.com/zgard" target="_blank">github.com/zgard</a></p>
+
+          <p>Feel free to contact me on LinkedIn!</p>
+
+        </div>
+      </div>
+  
+      <hr>
+  
+    </div> <!-- /container -->
+  
+  </main>
+  
+</body>
+</html>
